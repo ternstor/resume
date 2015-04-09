@@ -1,0 +1,128 @@
+\documentclass[sans,letter]{moderncv}
+\moderncvtheme[grey]{classic}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+
+\setlength{\hintscolumnwidth}{2.5cm}
+\AtBeginDocument{\recomputelengths}
+
+
+% personal data
+\firstname{Thomas}
+\familyname{Ernstorfer}
+\address{885 Franklin St. Apt. \#203}{San Francisco, CA 94102}
+\mobile{+1 (415)-463-9996}
+\email{thomas@n0.cl}
+%\extrainfo{Edad: 30 años\\Estado Civil: Soltero, sin hijos}
+% optional, remove the line if not wanted
+%\photo[64pt]{thomas.jpg}
+%\quote{Fecha de nacimiento: 2 de Octubre de 1984}
+%\nopagenumbers{} % uncomment to suppress automatic page numbering
+
+
+% content
+\begin{document}
+\maketitle
+
+
+\section{Education}
+
+\cventry{2010}{BSc. Informatics (Ingeniería Civil en Informática)}
+{Universidad Técnica Federico Santa María (UTFSM)}{Valparaíso, Chile}{
+Thesis: \em ``Evaluating Eucalyptus As A Cloud Computing Platform.''
+}{
+Coursework: Programming Languages, Databases, Computer Networks, Computer Systems Architecture.
+}
+
+
+\section{Experience}
+
+\cventry{Feb 2013\\--Feb 2015}{Software Engineer}{SKOUT}
+{Santiago, Chile and San Francisco, CA (since Oct. 2013)}{}
+{\begin{itemize}
+  \item Development of community management tools for internal use.
+  Refactoring, performance analysis and update of existing community
+  management platforms.
+  \item Part of the team developing a new website frontend.
+  \item Development of image cropping server.
+  \item Technology used: Django, MySQL, Bootstrap, AngularJS, Redis, RabbitMQ.
+\end{itemize}}
+
+\cventry{Aug--Nov 2012}{Lead Developer}{Canubring.com}{Santiago, Chile}{}
+{\begin{itemize}
+  \item Design and development of a new version of the Canubring.com website.
+  \item Handling of source code control and development guidelines.
+  \item Managed external development for future iterations and
+  applications.
+  \item Technology used: Django, Bootstrap, Backbone.js.
+\end{itemize}}
+
+\cventry{Apr--May 2012}{Consultant}{OctaneNation.com}{Santiago, Chile}{}
+{\begin{itemize}
+  \item Django development and templating of a new design for OctaneNation.com.
+  \item Various bug fixes and system maintenance.
+  \item Technology used: Django, MySQL, Bootstrap, jQuery, Solr.
+\end{itemize}}
+
+\cventry{Jul 2011\\--Jan 2012}{Software Engineer}{Nimbic Chile}{Santiago, Chile}
+{}{\begin{itemize}
+  \item Design and development of the nCloud platform for EM circuit simulation
+  over AWS clusters.
+  \item Initial client-server design of Web EM CAD model viewer.
+  \item Technology used: Boto, Bottle, AWS, jQuery, ExtJS.
+\end{itemize}}
+
+\cventry{2011--2013}{Part-time Teacher}
+{Informatics Department, UTFSM}{Santiago, Chile}{}
+{Introductory programming course for engineering students using the
+python language.}
+
+\cventry{Jan--May 2011}{Scalability Engineer}{SecondSense}
+{Santiago, Chile}{}{\begin{itemize}
+  \item AWS architecture design for a social audio streaming platform.
+  \item Worked extensively on profiling and optimizing SecondSense's Mahout Slope One Recommender-based discovery service.
+  \item Development of web frontend components.
+  \item Technology used: Zend Framework, MySQL, Solr, Tomcat, Java, Sprint.
+\end{itemize}}
+
+\newpage
+
+\section{Internships}
+
+\cventry{Jan 2010\\Mar 2010}{Software Developer}{Intellicore}
+{Viña del Mar, Chile}{}{\begin{itemize}
+\item Developed the ``Travel Allowances'' web portal for Chile’s Ministry of Health in the Libertador General Bernardo O'Higgins Region.
+\item Technologies used: Zend Framework, MySQL.
+\end{itemize}}
+
+\cventry{Dec 2006\\Jan 2007}{Software Developer}{BankBoston (now Itaú)}
+{Santiago, Chile}{}{\begin{itemize}
+  \item Made security and efficiency improvements to BankBoston's web access
+  control application.
+  \item Technologies used: Visual Basic 6, Microsoft SQL Server.
+\end{itemize}}
+
+\section{University}
+
+\cventry{2008--2010}{Computer Systems Laboratory Assistant}
+{Informatics Department, UTFSM}{Valparaíso, Chile}{}
+{
+\begin{itemize}
+\item Applied networking experiences for students of the computer networks
+course. Related system services administration and support.
+\item Technologies used: Python, LDAP, Apache.
+\end{itemize}
+}
+
+\cventry{2007--2010}{Teaching Assistant}
+{Informatics Department, UTFSM}{Valparaíso, Chile}{}
+{Teaching assistant for the programming course using the Pascal and Java programming
+languages.}
+
+\section{Technical Skills}
+\cvcomputer{Languages}{Python, Javascript, Java}{Databases}{MySQL, PostgreSQL}
+\cvcomputer{Web}{AngularJS, BackboneJS}{Frameworks}{Django, Tastypie, Celery}
+\cvcomputer{Cloud}{AWS, Eucalyptus}{Other}{Tomcat, RabbitMQ}
+\cvcomputer{Source Control Management}{git, mercurial}{Operating Systems}{Debian and Redhat distros}
+
+\end{document}
